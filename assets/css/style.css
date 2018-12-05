@@ -1,0 +1,47 @@
+body{
+    background-image: url("/New-Portfolio/assets/images/background.jpg");
+    background-size: cover;                     
+    background-repeat: no-repeat;
+};
+img {
+    transition: filter .8s ease-in-out;
+    -webkit-filter: grayscale(0%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+    /* filter: grayscale(0%); FF 35+ */
+  }
+  
+  img:hover {
+    -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+    filter: grayscale(100%); /* FF 35+ */
+    -webkit-transform: scale(1.01);
+  }
+.main-container{
+    margin: auto;
+}
+.row{
+    margin-top: 40px;
+
+}
+#brand-statement{
+    font-size: x-large;
+    color: black;
+    font-weight: 700;
+    text-shadow: 1px 1px 1px white;
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+}
+#hrLine{
+    margin: 5px;
+}
+#profile-picture{
+    margin: 40px auto 25px auto;
+    border-radius: 120px;
+}
+
+#title-row{
+    font-size: xx-large;
+    color: black;
+    text-shadow: 1px 1px 1px white;
+    font-weight: 700;
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+}
