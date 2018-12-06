@@ -14,12 +14,19 @@ img {
     filter: grayscale(100%); /* FF 35+ */
     -webkit-transform: scale(1.01);
   }
+p {
+    margin: 5px;
+}
 .main-container{
     margin: auto;
 }
 .row{
     margin-top: 40px;
 
+}
+.social-media{
+    display: block;
+    text-align: center;
 }
 #brand-statement{
     font-size: x-large;
@@ -30,7 +37,7 @@ img {
     text-align: center;
 }
 #hrLine{
-    margin: 5px;
+    margin: auto; 
 }
 #profile-picture{
     margin: 40px auto 25px auto;
@@ -43,5 +50,10 @@ img {
     text-shadow: 1px 1px 1px white;
     font-weight: 700;
     font-family: 'Amatic SC', cursive;
+    display: block;
     text-align: center;
+}
+
+.tomMargin {
+    margin: auto !important;
 }
