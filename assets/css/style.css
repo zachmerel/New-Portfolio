@@ -56,4 +56,9 @@ p {
 
 .tomMargin {
     margin: auto !important;
+    font-family: 'Amatic SC', cursive;
+    color: black;
+    font-weight: 700;
+    text-shadow: 1px 1px 1px white;
+    font-size: x-large;
 }
