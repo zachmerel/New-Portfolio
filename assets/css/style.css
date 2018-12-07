@@ -53,7 +53,11 @@ p {
     display: block;
     text-align: center;
 }
-
+#particles-js{
+    border-radius: 290px;
+    width: auto;
+    height: 275px;
+  }
 .tomMargin {
     margin: auto !important;
     font-family: 'Amatic SC', cursive;
@@ -61,4 +65,23 @@ p {
     font-weight: 700;
     text-shadow: 1px 1px 1px white;
     font-size: x-large;
+}
+
+.card-img-top{
+    border-radius: 290px;
+    width: auto;
+    height: 275px;
+}
+.card-title{
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    color: black;
+    font-weight: 700;
+    text-shadow: 1px 1px 1px white;
+    font-size: x-large;
+}
+
+.card{
+    background-color: transparent;
+    border: 0px;
 }
