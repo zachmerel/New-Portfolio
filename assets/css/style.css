@@ -57,6 +57,7 @@ p {
     border-radius: 290px;
     width: auto;
     height: 275px;
+    z-index: 1;
   }
 .tomMargin {
     margin: auto !important;
@@ -71,6 +72,7 @@ p {
     border-radius: 290px;
     width: auto;
     height: 275px;
+    z-index: 2;
 }
 .card-title{
     text-align: center;
