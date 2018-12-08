@@ -58,6 +58,8 @@ p {
     width: auto;
     height: 275px;
     z-index: 1;
+    position: absolute;
+    border-radius: 290px;
   }
 .tomMargin {
     margin: auto !important;
