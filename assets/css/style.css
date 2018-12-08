@@ -54,12 +54,13 @@ p {
     text-align: center;
 }
 #particles-js{
-    border-radius: 290px;
+    border-radius: 290px !important;
     width: auto;
     height: 275px;
     z-index: 1;
     position: absolute;
     border-radius: 290px;
+    
   }
 .tomMargin {
     margin: auto !important;
@@ -75,6 +76,7 @@ p {
     width: auto;
     height: 275px;
     z-index: 2;
+    
 }
 .card-title{
     text-align: center;
@@ -87,5 +89,9 @@ p {
 
 .card{
     background-color: transparent;
+    border-radius: 290px;
     border: 0px;
+}
+.particles-js-canvas-el{
+    border-radius: 290px;
 }
