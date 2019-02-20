@@ -1,97 +1,140 @@
-body{
-    background-image: url("/New-Portfolio/assets/images/background.jpg");
-    background-size: cover;                     
-    background-repeat: no-repeat;
-};
+body {
+  background-image: url("/New-Portfolio/assets/images/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 img {
-    transition: filter .8s ease-in-out;
-    -webkit-filter: grayscale(0%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
-    /* filter: grayscale(0%); FF 35+ */
-  }
-  
-  img:hover {
-    -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
-    filter: grayscale(100%); /* FF 35+ */
-    -webkit-transform: scale(1.01);
-  }
+  transition: filter 0.8s ease-in-out;
+  -webkit-filter: grayscale(0%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+  /* filter: grayscale(0%); FF 35+ */
+}
+
+img:hover {
+  -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+  filter: grayscale(100%); /* FF 35+ */
+  -webkit-transform: scale(1.01);
+}
 p {
-    margin: 5px;
+  margin: 5px;
 }
-.main-container{
-    margin: auto;
+.main-container {
+  margin: auto;
 }
-.row{
-    margin-top: 40px;
-
+.row {
+  margin-top: 40px;
 }
-.social-media{
-    display: block;
-    text-align: center;
+.social-media {
+  display: block;
+  text-align: center;
+  margin-bottom: 15px;
 }
-#brand-statement{
-    font-size: x-large;
+#email-form {
+  display: block;
+  text-align: center;
+}
+#brand-statement {
+  font-size: 28px;
+  color: black;
+  font-weight: bolder;
+  text-shadow: 1px 1px 1px white;
+  font-family: "Amatic SC", cursive;
+  text-align: center;
+}
+#hrLine {
+  margin: auto;
+}
+#profile-picture {
+  margin: 40px auto 25px auto;
+  border-radius: 120px;
+}
+#email {
+  width: 200px;
+  margin: auto;
+  border-radius: 25px;
+  text-align: center;
+}
+#message {
+  width: 400px;
+  margin-top: 5px;
+  margin: auto;
+  border-radius: 25px;
+  text-align: center;
+}
+#send {
+  width: 100px;
+  margin: auto;
+  border-radius: 105px;
+}
+#resume{
     color: black;
-    font-weight: 700;
-    text-shadow: 1px 1px 1px white;
-    font-family: 'Amatic SC', cursive;
-    text-align: center;
 }
-#hrLine{
-    margin: auto; 
+.title-row {
+  font-size: xx-large;
+  color: black;
+  text-shadow: 1px 1px 1px white;
+  font-weight: 700;
+  font-family: "Amatic SC", cursive;
+  display: block;
+  text-align: center;
 }
-#profile-picture{
-    margin: 40px auto 25px auto;
-    border-radius: 120px;
+.sub-title-row {
+  font-size: xx-large;
+  color: black;
+  text-shadow: 1px 1px 1px white;
+  font-weight: 700;
+  font-family: "Amatic SC", cursive;
+  display: block;
+  text-align: center;
+  margin-top: 101px;
 }
-
-#title-row{
-    font-size: xx-large;
-    color: black;
-    text-shadow: 1px 1px 1px white;
-    font-weight: 700;
-    font-family: 'Amatic SC', cursive;
-    display: block;
-    text-align: center;
+.formCSS {
+  font-family: "Amatic SC", cursive;
+  color: black;
+  font-weight: bolder;
+  text-shadow: 1px 1px 1px white;
+  font-size: 24px;
+  margin: 5 auto;
 }
-#particles-js{
-    border-radius: 290px !important;
-    width: auto;
-    height: 275px;
-    z-index: 1;
-    position: absolute;
-    border-radius: 290px;
-    
-  }
+.form-boxes {
+  text-align: center;
+}
+#particles-js {
+  border-radius: 290px !important;
+  width: auto;
+  height: 275px;
+  z-index: 1;
+  position: absolute;
+  border-radius: 290px;
+}
 .tomMargin {
-    margin: auto !important;
-    font-family: 'Amatic SC', cursive;
-    color: black;
-    font-weight: 700;
-    text-shadow: 1px 1px 1px white;
-    font-size: x-large;
+  margin: auto !important;
+  font-family: "Amatic SC", cursive;
+  color: black;
+  font-weight: 700;
+  text-shadow: 1px 1px 1px white;
+  font-size: x-large;
 }
 
-.card-img-top{
-    border-radius: 290px;
-    width: auto;
-    height: 275px;
-    z-index: 2;
-    
+.card-img-top {
+  border-radius: 290px;
+  width: auto;
+  height: 275px;
+  z-index: 2;
 }
-.card-title{
-    text-align: center;
-    font-family: 'Amatic SC', cursive;
-    color: black;
-    font-weight: 700;
-    text-shadow: 1px 1px 1px white;
-    font-size: x-large;
+.card-title {
+  text-align: center;
+  font-family: "Amatic SC", cursive;
+  color: black;
+  font-weight: 700;
+  text-shadow: 1px 1px 1px white;
+  font-size: x-large;
 }
 
-.card{
-    background-color: transparent;
-    border-radius: 290px;
-    border: 0px;
+.card {
+  background-color: transparent;
+  border-radius: 290px;
+  border: 0px;
 }
-.particles-js-canvas-el{
-    border-radius: 290px;
+.particles-js-canvas-el {
+  border-radius: 290px;
 }
