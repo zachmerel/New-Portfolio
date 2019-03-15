@@ -10,8 +10,8 @@ $(document).ready(function() {
     console.log("click works");
   });
   //Click function for Word Guess Game
-  $("#WGG-Card").click(function() {
-    window.location = "https://zachmerel.github.io/Word_Guess_Game/";
+  $("#CCMG-Card").click(function() {
+    window.location = "https://musing-meninsky-f09d20.netlify.com";
     console.log("click works");
   });
   //Click function for Project 1: Doppelgangers
@@ -29,9 +29,9 @@ $(document).ready(function() {
     window.location = "https://flickscore.herokuapp.com/";
     console.log("click works");
   });
-  //Click function for liri bot
-  $("#liribot").click(function() {
-    window.location = "https://github.com/zachmerel/liri-node-app/blob/master/README.md";
+  //Click function for bamazon bot
+  $("#bamazon").click(function() {
+    window.location = "https://github.com/zachmerel/bamazon/blob/master/README.md";
     console.log("click works");
   });
 });

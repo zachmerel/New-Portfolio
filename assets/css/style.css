@@ -1,5 +1,6 @@
 body {
-  background-image: url("/New-Portfolio/assets/images/background.jpg");
+  /* background-image: url("/New-Portfolio/assets/images/background.jpg"); */
+  background-color: #ccefff;
   background-size: cover;
   background-repeat: no-repeat;
 }
