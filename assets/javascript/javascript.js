@@ -11,7 +11,7 @@ $(document).ready(function() {
   });
   //Click function for Word Guess Game
   $("#CCMG-Card").click(function() {
-    window.location = "https://musing-meninsky-f09d20.netlify.com";
+    window.location = 'https://chiago-cubs-memory-game.netlify.com';
     console.log("click works");
   });
   //Click function for Project 1: Doppelgangers
@@ -20,7 +20,7 @@ $(document).ready(function() {
     console.log("click works");
   });
   //Click function for LOTR RPG
-  $("#LOTR-Card").click(function() {
+  $("#GB-Card").click(function() {
     window.location = "https://zachmerel.github.io/unit-4-game/";
     console.log("click works");
   });
