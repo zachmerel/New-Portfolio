@@ -69,6 +69,14 @@ p {
 #resume{
     color: black;
 }
+#email{
+  font-size: 22px;
+  color: black;
+  font-weight: bolder;
+  text-shadow: 1px 1px 1px white;
+  font-family: "Amatic SC", cursive;
+  text-align: center;
+}
 .title-row {
   font-size: xx-large;
   color: black;
