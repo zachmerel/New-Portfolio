@@ -34,4 +34,9 @@ $(document).ready(function() {
     window.location = "https://github.com/zachmerel/bamazon/blob/master/README.md";
     console.log("click works");
   });
+  //Click function for Timelenders
+  $("#timelenders").click(function() {
+    window.location = "https://timelender.herokuapp.com/";
+    console.log("click works");
+  });
 });
