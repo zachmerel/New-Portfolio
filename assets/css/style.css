@@ -66,10 +66,10 @@ p {
   margin: auto;
   border-radius: 105px;
 }
-#resume{
-    color: black;
+#resume {
+  color: black;
 }
-#email{
+#email {
   font-size: 22px;
   color: black;
   font-weight: bolder;
@@ -146,4 +146,10 @@ p {
 }
 .particles-js-canvas-el {
   border-radius: 290px;
+}
+#Doppelgangers-Card {
+  margin: auto;
+}
+#timelenders {
+  margin: auto;
 }
