@@ -21,14 +21,14 @@ $(document).ready(function() {
   });
   //Click function for LOTR RPG
   $("#GB-Card").click(function() {
-    window.location = "https://zachmerel.github.io/unit-4-game/";
+    window.location = "https://safe-plains-97017.herokuapp.com/";
     console.log("click works");
   });
   //Click function for Project 2
-  $("#flickscore").click(function() {
-    window.location = "https://flickscore.herokuapp.com/";
-    console.log("click works");
-  });
+  // $("#flickscore").click(function() {
+  //   window.location = "https://flickscore.herokuapp.com/";
+  //   console.log("click works");
+  // });
   //Click function for bamazon bot
   $("#bamazon").click(function() {
     window.location = "https://github.com/zachmerel/bamazon/blob/master/README.md";
